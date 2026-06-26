@@ -1,5 +1,5 @@
 {% set name = "kulprit" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kulprit-{{ version }}.tar.gz
-  sha256: 57e2600c97875cee6ec9a27e9066295744e910cdb795fe7aa0629daf2dbd9f88
+  sha256: 404fc75c1920933f5db3e15b8e070246e201d2d54cc9e2324872d747a50ccc65
 
 build:
   noarch: python
